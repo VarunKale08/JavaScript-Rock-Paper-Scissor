@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(/img/background-img.jpg) no-repeat center center/ cover;
+}
+
+.container{
+    width: 550px;
+    height: 480px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 5px;
+    box-shadow: 5px 10px;
+}
+
+.display-result{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    /* border: 2px solid yellow; */
+}
+
+#score-container{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.score-section{
+    /* border: 2px solid blue; */
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+.score{
+    
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
+
+.text{
+    /* border: 2px solid pink; */
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+
+}
+
+.text-section{
+    font-size: 50px;
+}
+
+#buttons-container{
+    /* border: 2px solid purple; */
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+.play-again-button{
+    /* border: 2px solid rgb(122, 95, 95); */
+    margin-top: 10px ;
+}
+
+button{
+    padding: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: 22px;
+    background-color: white;
+    box-shadow: 2px 2px;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s all;
+}
+
+button:active{
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgb(100, 99, 99);
+    /* Lowering the shadow */
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+}
